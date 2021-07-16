@@ -68,3 +68,6 @@ div.responsive.right {
   width: 100%;
   object-fit: cover;
 }
+small {
+  padding: 0 0 10px 100px;
+}
