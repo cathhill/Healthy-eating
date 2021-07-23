@@ -17,7 +17,11 @@ div.gallery {
   border: 1px solid #ccc;
 }
 
-div.gallery:hover {
+.imageBox {
+  height: 100px;
+  width: 100px;
+}
+z div.gallery:hover {
   border: 1px solid #777;
 }
 
@@ -64,10 +68,137 @@ div.responsive.right {
   padding: 0 0 0 6px;
 }
 
+small {
+  padding: 0 0 10px 100px;
+}
+
+h1 {
+  color: #4e6e58;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  display: flex;
+}
+
+.bigFont {
+  font-size: 80px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.smallFont {
+  font-size: 25px;
+}
+
+.nav-item {
+  font-family: "Poppins", sans-serif;
+}
+
+a.nav-link:link {
+  color: #7ca288;
+}
+
+a.nav-link:visited {
+  color: #7ca288;
+}
+
+a.nav-link:hover {
+  color: #acbdba;
+}
+
+a.nav-link:active {
+  color: #7ca288;
+}
+
+.header h2 {
+  color: #acbdba;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  padding-top: 10px;
+}
+
+.col-6 {
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  padding: 80px 35px 40px 35px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: #7ca288;
+  background-color: white;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 0px;
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+  align-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #7ca288;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: #acbdba;
+}
+
+i {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: table;
+  margin: auto;
+}
+
+.form-group {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  width: 100%;
+  margin: 30px;
+  justify-content: center;
+}
+
+.form-check {
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+
+.btn-primary {
+  margin: 30px;
+}
+
+.carousel-item img {
+  height: 400px !important;
+  width: 600px !important;
+  object-fit: cover;
+}
+
+.desc {
+  font-family: "Poppins", sans-serif;
+}
+
+.gallery {
+  color: #7ca288;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: #acbdba;
+  border-color: #acbdba;
+}
+
 .fit-image {
   width: 100%;
   object-fit: cover;
-}
-small {
-  padding: 0 0 10px 100px;
 }
